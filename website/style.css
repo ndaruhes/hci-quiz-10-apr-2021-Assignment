@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: calibri;
+}
+
+.break {
+    clear: both;
+}
+
+.content-wrapper {
+    width: 60%;
+    margin: 30px 20%;
+    float: left;
+}
+
+.content-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* NAVBAR */
+.navbar {
+    background: white;
+    width: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.logo {
+    width: 10%;
+    margin-left: 5%;
+    float: left;
+}
+
+.logo>a>img {
+    width: 100%;
+}
+
+.menu {
+    width: 15%;
+    margin-left: 70%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.menu>a {
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.menu>a:hover {
+    color: grey;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background: url('assets/robot-girl.jpg') 100% 40%;
+    height: 400px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron>p {
+    text-align: center;
+}
+
+.jumbotron-title {
+    font-size: 50px;
+}
+
+.jumbotron-desc {
+    font-size: 30px;
+}
+
+/* GOALS */
+.goals-column {
+    float: left;
+    width: 25%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.goals-img {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.goals-column-title {
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.goals-column-desc {
+    font-size: 17px;
+    text-align: center;
+}
+
+/* DETAILS */
+.detail-img {
+    float: left;
+    width: 40%;
+}
+
+.detail-img>img {
+    width: 70%;
+    margin: 0 15%;
+}
+
+.detail-desc {
+    float: left;
+    width: 60%;
+    padding: 80px 30px;
+    box-sizing: border-box;
+}
+
+.detail-desc>h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.detail-desc>p {
+    font-size: 17px;
+}
+
+/* FOOTER */
+.footer {
+    background: grey;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer>p {
+    float: left;
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    font-weight: bold;
+}
+
+.footer-socmed {
+    float: left;
+    width: 5%;
+    margin-left: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-socmed>a {
+    margin: 0 5px;
+}
+
+
+/* REGISTER */
+.form-content {
+    width: 30%;
+    margin: 20px 35%;
+}
+
+.form-wrapper {
+    background: white;
+    /* box-shadow: ; */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group>label {
+    font-size: 17px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group>.form-input {
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.form-btn {
+    background: blue;
+    padding: 7px 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.form-btn:hover {
+    border-radius: 10px;
+}
